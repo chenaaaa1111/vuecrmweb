@@ -1,0 +1,230 @@
+html, body {
+  height: calc(100%);
+  margin: 0;
+}
+
+/*横向导航栏最外面的div 组件名*/
+.el-header {
+  background-color: #fff;
+  color: #333;
+  line-height: 75px;
+}
+
+.el-dropdown {
+  top: -22px;
+}
+
+/*左侧导航栏最外面的div 组件名*/
+.el-aside {
+  color: #333;
+}
+
+/*  左侧导航栏字体的颜色dt */
+.el-submenu__title {
+  background: #27313a;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: rgba(170, 191, 209, 1);
+}
+
+/*左侧导航栏点击时的背景颜色*/
+.el-submenu__title:hover {
+  background: #172224;
+}
+
+/*左侧导航栏每一个模块div的组件名*/
+.el-submenu {
+  background-color: #eee;
+}
+
+/*去掉左侧的小图标*/
+.el-submenu__icon-arrow {
+  display: none;
+}
+
+/*下拉hover效果*/
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover {
+  background: rgba(38, 49, 58, 1);
+  color: #fff;
+}
+
+/*下拉菜单和上面的距离*/
+.el-popper[x-placement^=bottom] {
+  margin-top: 0px;
+}
+
+/*超级管理员css*/
+.el-dropdown-menu__item {
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(51, 51, 51, 1);
+}
+
+.el-icon-rankk {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/rankk.png") no-repeat;
+}
+
+.el-icon-role {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/role.png") no-repeat;
+}
+
+.el-icon-account {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/account.png") no-repeat;
+}
+
+.el-icon-store {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/store.png") no-repeat;
+}
+
+.el-icon-facility {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/facility.png") no-repeat;
+}
+
+.el-icon-user {
+  width: 14px;
+  height: 14px;
+  background: url("../../assets/imgs/user.png") no-repeat;
+}
+
+/*个人设置css*/
+/*头部*/
+.el-dialog__header {
+  height: 50px;
+  line-height: 50px;
+  background: rgba(243, 243, 243, 1);
+  border-radius: 6px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: rgba(51, 51, 51, 1);
+  padding: 0px;
+  padding-left: 15px;
+}
+
+/*中部*/
+.el-dialog__body {
+  padding: 30px 60px;
+}
+
+.el-form-item__label {
+  text-align: left;
+}
+
+.el-form-item__label {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: rgba(51, 51, 51, 1);
+}
+
+.el-input__inner {
+  width: 100%;
+}
+
+/*表单报错位置*/
+.el-form-item__error {
+  /*right: 45px;
+  top: 10px;*/
+}
+
+/*取消和保存按钮的样式*/
+.el-button {
+  background: rgba(226, 226, 226, 1);
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: rgba(51, 51, 51, 1);
+  border: none;
+  /*width:80px;
+  height: 34px;*/
+}
+
+.el-button:hover {
+  background: rgba(226, 226, 226, 1);
+  color: rgba(51, 51, 51, 1);
+}
+
+.el-button + .el-button {
+  background: rgba(248, 189, 10, 1);
+  border-radius: 2px;
+  font-size: 18px;
+  font-family: MicrosoftYaHei;
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  /*width:80px;
+  height: 34px;*/
+}
+
+/*头像编辑*/
+.head_text {
+  width: 100px;
+  padding-left: 8px;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  position: absolute;
+  top: 120px;
+}
+
+.head_adit {
+  width: 90px;
+  height: 90px;
+  /*border: 1px solid #ccc;*/
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  border-radius: 100%;
+ /* background: url('../imgs/head.png') no-repeat;*/
+  background-size: 100% 100%;
+
+}
+/*头像编辑弹出框*/
+.el-dialog__body {
+  padding:0px;
+}
+/*.boxx {
+  margin-bottom: 20px;
+  float: left;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  border: 1px solid #fff;
+}*/
+.boxx:last-child {
+   margin-bottom: 0;
+ }
+
+.boxx_ {
+  padding-top: 10px;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+.boxx .bg-purple-dark {
+  background: #99a9bf;
+}
+.boxx .bg-purple {
+  background: #d3dce6;
+}
+.boxx .bg-purple-light {
+  background: #e5e9f2;
+}
+.boxx .grid-content {
+  height: 88px;
+  width: 88px;
+  border-radius: 100%;
+  min-height: 36px;
+}
+.boxx .row-bg {
+  padding: 10px 0;
+  background-color: #f9fafc;
+}

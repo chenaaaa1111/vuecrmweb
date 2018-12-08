@@ -1,0 +1,46 @@
+
+#app {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: rgba(214, 217, 232, 1);
+}
+
+li {
+  float: left;
+}
+
+.top_nav {
+  background: #fff;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  line-height: 60px;
+  top: 75px;
+}
+
+.el-button {
+  padding: 0px;
+  height: 30px;
+  font-size: 16px;
+}
+
+table thead tr {
+  background: rgba(113, 156, 161, 1);
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: #FFFEFE;
+}
+
+table tbody tr {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: #333;
+}
+
+/*table tbody tr:nth-child(odd){
+  background: #ccc;
+}
+table tbody tr:nth-child(even){
+  background: #F2F2F2;
+}*/

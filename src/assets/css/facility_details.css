@@ -1,0 +1,90 @@
+#app {
+  background: #D6D9E8;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.el-header {
+  padding: 0px;
+}
+
+.el-main {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.facility_details_header {
+  height: 60px;
+  width: 100%;
+  background: #719CA1;
+  line-height: 60px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.facility_details_header li {
+  float: left;
+}
+
+.facility_details_header li:nth-child(1) {
+  float: left;
+  padding-left: 40px;
+}
+
+.facility_details_header li:nth-child(2) {
+  float: right;
+
+}
+
+.facility_details_header li:nth-child(2) a {
+  display: block;
+  width: 30px;
+  height: 40px;
+  background: url('../imgs/return.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: 11px;
+  margin-right: 40px;
+}
+/*基本信息*/
+.facility_details_basic{
+  height: 210px;
+  padding-left: 57px;
+  background: #fff;
+}
+.facility_details_basic li{
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+.facility_details_basic .ttext{
+  height: 40px;
+  line-height: 40px;
+  font-size:14px;
+  font-family:MicrosoftYaHei;
+  color:#333;
+}
+
+/*设备列表*/
+.facility_list{
+  height: 47px;
+  background: #fff;
+  margin-top: 10px;
+  padding-left: 57px;
+  line-height: 47px;
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:#333;
+}
+table thead tr{
+  background:#E3E3E3;
+  font-size:16px;
+  font-family:MicrosoftYaHei;
+  color:#333;
+}
+table tbody tr{
+  font-size:14px;
+  font-family:MicrosoftYaHei;
+  color:#333;
+  text-align: center;
+}

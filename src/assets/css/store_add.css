@@ -1,0 +1,62 @@
+#app {
+  background: #D6D9E8;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.el-header {
+  padding: 0px;
+}
+
+.el-main {
+  background: #fff;
+  margin-top: 10px;
+  padding: 30px 40px;
+}
+
+.store_add_header {
+  height: 60px;
+  width: 100%;
+  background: #719CA1;
+  line-height: 60px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.store_add_header li {
+  float: left;
+}
+
+.store_add_header li:nth-child(1) {
+  float: left;
+  padding-left: 40px;
+}
+
+.store_add_header li:nth-child(2) {
+  float: right;
+
+}
+
+.store_add_header li:nth-child(2) a {
+  display: block;
+  width: 30px;
+  height: 40px;
+  background: url('../imgs/return.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: 11px;
+  margin-right: 40px;
+}
+
+.store_text {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: rgba(242, 78, 77, 1);
+  opacity: 0.9;
+  font-size: 16px;
+  font-family: MicrosoftYaHei;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 30px;
+}

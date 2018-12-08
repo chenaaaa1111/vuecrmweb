@@ -1,0 +1,17 @@
+login登录页面
+
+store门店管理
+store_add门店添加
+store_adit门店编辑
+
+
+facility设备管理
+facility_details设备管理——详情
+facility_add_ipc设备管理—详情—添加ipc
+
+juese
+user_statistics用户统计
+logopage默认页面
+
+navBar导航栏组件页面
+padinnation分页 组件页面

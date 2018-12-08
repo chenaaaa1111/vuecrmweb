@@ -1,0 +1,56 @@
+#app {
+  background: #D6D9E8;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.el-header {
+  padding: 0px;
+}
+
+.el-main {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.facility_add_ipc_header {
+  height: 60px;
+  width: 100%;
+  background: #719CA1;
+  line-height: 60px;
+  font-size: 16px;
+  color: #fff;
+
+}
+
+.facility_add_ipc_header li {
+  float: left;
+}
+
+.facility_add_ipc_header li:nth-child(1) {
+  float: left;
+  padding-left: 40px;
+}
+
+.facility_add_ipc_header li:nth-child(2) {
+  float: right;
+
+}
+
+.facility_add_ipc_header li:nth-child(2) a {
+  display: block;
+  width: 30px;
+  height: 40px;
+  background: url('../imgs/return.png') no-repeat;
+  background-size: 100% 100%;
+  margin-top: 11px;
+  margin-right: 40px;
+}
+/*基本信息*/
+.facility_details{
+  /*height: 210px;*/
+  padding-left: 57px;
+  background: #fff;
+  padding-top:63px;
+}

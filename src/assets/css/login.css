@@ -1,0 +1,63 @@
+*{
+  z-index:0;
+}
+#app{
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  background: url('../imgs/background.png') no-repeat;
+  background-size: 100% 100%;
+  z-index:1;
+}
+.text_title{
+text-align: center;
+  font-size:48px;
+  font-family:MicrosoftYaHei-Bold;
+  color:rgba(255,255,255,1);
+  top: 50%;
+  margin-top: 120px;
+}
+.login_box{
+  width: 33.333%;
+  height: 44.7%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 33px;
+  text-align: center;
+}
+.textt{
+  font-size:18px;
+  font-family:MicrosoftYaHeiLight;
+  color:rgba(110,118,125,1);
+  height: 110px;
+  line-height: 110px;
+}
+
+.cont_top{
+  width: 80%;
+  margin:0 auto;
+}
+
+.cont_top .img_account{
+ /* width:44px;*/
+  height:40px;
+  background:rgba(113,156,161,1);
+
+}
+
+.cont_bottom{
+  width: 80%;
+  margin:60px auto;
+}
+.cont_bottom .img_pass{
+  height:40px;
+  background:rgba(113,156,161,1);
+}
+.el-input__inner{
+  width: 100%;
+}
+
+.cont_foot{
+  width: 80%;
+  margin:60px auto;
+}
